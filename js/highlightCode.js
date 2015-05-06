@@ -1,3 +1,9 @@
+//Kyle Lowtharp
+//CMP237 Final exam
+
+
+
+
 function highlightCode(node, keywords) {
   var text = node.textContent;
   node.textContent = ""; // Clear the node
@@ -13,5 +19,8 @@ function highlightCode(node, keywords) {
   }
   var after = text.slice(pos);
   node.appendChild(document.createTextNode(after));
+pre.lang.style("red")
+
+console.log("red")
 }
 
